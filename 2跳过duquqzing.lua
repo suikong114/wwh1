@@ -1,4 +1,4 @@
-hk = 1
+hk = 2
 --[[
              hk
         1  本地调试
@@ -2145,7 +2145,7 @@ function fingongn()
     end 
     gg.clearResults()  
     if XGCK == 1 then 
-        duquqzing1()
+        Main()
         gg.showUiButton()  
         while(true) do 
             if gg.isClickedUiButton() then 
