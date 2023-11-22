@@ -1869,7 +1869,7 @@ function duquqzing()
     jiancha1=gg.getResultCount()
 
     if jiancha1 == "0" then
-        duquqzing1()
+        Main()
         return
     end  
     gg.searchNumber("144;0::5", gg.TYPE_DWORD)  
@@ -1894,7 +1894,7 @@ function duquqzing()
   
     gailvj = content:match("qining 213\nqining (.-)\nqining 1302600475\n")
     if gailvj==nil then
-        duquqzing1()
+        Main()
     end
 
 end
@@ -2145,7 +2145,7 @@ function fingongn()
     end 
     gg.clearResults()  
     if XGCK == 1 then 
-        Main()
+        duquqzing1()
         gg.showUiButton()  
         while(true) do 
             if gg.isClickedUiButton() then 
