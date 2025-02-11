@@ -1,14 +1,4 @@
-local a=0 function NZF(code)res=''for i in ipairs(code)do res=res..string.char(code[i])end return res end 
- gg.toast(NZF({230,173,163,229,156,168,233,170,140,232,175,129}))
-os.remove(gg.getFile()..NZF({46,100,117,109,112,46,116,120,116}))
-os.remove(gg.getFile()..NZF({46,108,117,97,99,46,100,117,109,112,46,116,120,116}))
-w=1
-while true do
-w=w+1
-os.remove(gg.getFile()..NZF({46,108,111,97,100,95})..w..NZF({46,108,117,97}))
-if w==20000 then break end end
---原理很简单，给小白用的大佬看看就好
---加个防改名效果更好
+
 hk=1
 
 
